@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/ic_unico"
+            android:title="Activo" />
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/ic_unico"
+            android:title="Agregar un estado" />
+
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/ic_unico"
+            android:title="Todos los Recibidos"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:icon="@drawable/ic_unico"
+            android:title="Principal"/>
+        <item
+            android:id="@+id/menu_seccion_5"
+            android:icon="@drawable/ic_unico"
+            android:title="Promociones"/>
+
+        <item
+            android:id="@+id/menu_seccion_6"
+            android:icon="@drawable/ic_unico"
+            android:title="Social"/>
+        <item
+            android:id="@+id/menu_seccion_7"
+            android:icon="@drawable/ic_unico"
+            android:title="Notificaciones"/>
+        <item
+            android:id="@+id/menu_seccion_8"
+            android:icon="@drawable/ic_unico"
+            android:title="Foros"/>
+    </group>
+    <item
+        android:id="@+id/navigation_subheader"
+        android:icon="@drawable/ic_unico"
+        android:title="Todas las etiquetas">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/ic_unico"
+                android:title="Destacados"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/ic_unico"
+                android:title="Pospuestos"/>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/ic_unico"
+                android:title="Importantes"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/ic_unico"
+                android:title="Enviados"/>
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:icon="@drawable/ic_unico"
+                android:title="Programados"/>
+            <item
+                android:id="@+id/menu_opcion_6"
+                android:icon="@drawable/ic_unico"
+                android:title="Bandeja de salida"/>
+        </menu>
+    </item>
+</menu>
