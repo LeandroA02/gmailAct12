@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         drawerLayout= (DrawerLayout)findViewById(R.id.drawer_layout);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_unico);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         NavigationView navView = (NavigationView)findViewById(R.id.nav_view);
