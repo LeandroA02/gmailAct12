@@ -66,6 +66,7 @@
                 android:id="@+id/menu_opcion_6"
                 android:icon="@drawable/ic_bandej"
                 android:title="Bandeja de salida"/>
+
         </menu>
     </item>
 </menu>
